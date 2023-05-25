@@ -24,10 +24,10 @@ export default function Home({allPostsData}) {
 
       <section className={utilStyles.headingMd}>
         <p className={styles.description}>
-            Привет! меня зовут Евгений, я разработчик (React)  и переводчик (Русский/Китайский).
+            Приветствую! Меня зовут Евгений, и я занимаюсь  <Link href="posts/develop">разработкой web приложений </Link>
+            и <Link href="posts/translate">переводом (русский/китайский язык).</Link>
         </p>
-          <p className={styles.description}> Мне можно написать <a href="mailto:goldin.irk@gmail.com">на почту</a></p>
-        <p className={styles.description}>Информацию по разработке можно посмотреть <Link href="posts/post">здесь</Link></p>
+          <p className={utilStyles.listItem}> Мне можно написать <a href="mailto:goldin.irk@gmail.com">на почту</a></p>
       </section>
 
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
