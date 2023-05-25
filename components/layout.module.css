@@ -1,7 +1,10 @@
 .container {
-    max-width: 36rem;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
+    max-width: 40rem;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -15,4 +18,11 @@
 }
 .logo {
     height: 1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-top: auto;
 }

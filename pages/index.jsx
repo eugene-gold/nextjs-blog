@@ -25,7 +25,6 @@ export default function Home({allPostsData}) {
       <section className={utilStyles.headingMd}>
         <p className={styles.description}>
             Привет! меня зовут Евгений, я разработчик (React)  и переводчик (Русский/Китайский).
-
         </p>
           <p className={styles.description}> Мне можно написать <a href="mailto:goldin.irk@gmail.com">на почту</a></p>
         <p className={styles.description}>Информацию по разработке можно посмотреть <Link href="posts/post">здесь</Link></p>
