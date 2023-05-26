@@ -27,7 +27,7 @@ export default function DevelopPage() {
                    >
                        <h3>Образец приложения &rarr;</h3>
                        <p>Приложение, работающее с данными Stars-Wars Api,
-                           и Zustand (не закончено).
+                           и Zustand (в разработке)
                        </p>
                    </a>
 

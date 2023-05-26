@@ -50,3 +50,22 @@
 .lightText {
     color: #666;
 }
+
+.center {
+    text-align: center;
+}
+
+/*article*/
+.articleHeading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.articleStyle {
+    padding: 1rem;
+    border: solid 2px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin-top: 1rem;
+}

@@ -16,6 +16,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({allPostsData}) {
+    console.log(allPostsData[0].date)
   return (
     <Layout home>
       <Head>
@@ -27,7 +28,7 @@ export default function Home({allPostsData}) {
             Приветствую! Меня зовут Евгений, и я занимаюсь  <Link href="posts/develop">разработкой web приложений </Link>
             и <Link href="posts/translate">переводом (русский/китайский язык).</Link>
         </p>
-          <p className={utilStyles.listItem}> Мне можно написать <a href="mailto:goldin.irk@gmail.com">на почту</a></p>
+          <p className={utilStyles.listItem}><a href="mailto:goldin.irk@gmail.com">Написать на почту</a></p>
       </section>
 
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
